@@ -11,7 +11,7 @@ Create a new target, Cocoa touch Framework type, named **UnityOutFramework**
 5. Build Settings -> Mismatched Return Type: `Yes`
 6. Build Settings -> Enable C++ Exceptions: `Yes`
 7. Build Settings -> Other Linker Flags: `$(inherited) -weak_framework CoreMotion -weak-lSystem`
-8. Build Settings -> Mach-O Type: `Static Library`
+8. Build Settings -> Mach-O Type: `Static Library` <<<<<<<<<< PLEASE NOTE: A static library cannot be packaged as a framework. Framework uses dylib under the hood. 
 
 
 ## Do these settings below, for supporting multi achitectures.
